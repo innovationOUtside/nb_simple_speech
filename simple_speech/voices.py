@@ -1,3 +1,0 @@
-voicelist_raw = ''
-voicelist = []
-

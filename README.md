@@ -14,15 +14,36 @@ from simple_speech import Speech
 
 speaker = Speech()
 
-
-# `voicelist` is automatically set as a global variable
-# as part of the creation of the Speech() object
-speaker.show_voices(voicelist)
-
-
-speaker.set_voice(49)
 speaker.say('hello how are you')
+speaker.say('Is it sunny today?')
+```
 
+We get a transcript of the speech by default.
+
+Disable the trasncript with:
+
+```python
+speaker.say("It's always raining here...",showtext = False)`
+```
+
+Reset the transcript statement counter using:
+
+```python
 speaker.reset_count()
 speaker.say('hello again')
+```
+
+We can get a list of available voices:
+
+```python
+# `voicelist` is automatically set as a global variable
+# as part of the creation of the Speech() object
+# although it is only available when
+# run in a separate code cell to the object instantiation
+speaker.show_voices(voicelist)
+```
+
+Set a voice as follows:
+```python
+speaker.set_voice(49)
 ```
