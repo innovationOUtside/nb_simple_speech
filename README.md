@@ -1,4 +1,4 @@
-# nb_simple_speech
+# nb\_simple\_speech
 Simple speech package for Jupyter notebook using the browser's Javascript `speechSynthesis` API.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/innovationOUtside/nb_simple_speech/master)
